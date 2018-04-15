@@ -430,7 +430,7 @@ header .header-cases{
 
 .contact h3{
     font-family: Cormorant Garamond;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 450;
     color: black;
     text-align: center;
@@ -552,7 +552,7 @@ header .header-cases{
     }
 
     .contact h3{
-        font-size: 26px;
+        font-size: 26px !important;
         line-height: 260px;    
     }
 }
