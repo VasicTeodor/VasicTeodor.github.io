@@ -430,7 +430,7 @@ header .header-cases{
 
 .contact h3{
     font-family: Cormorant Garamond;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 450;
     color: black;
     text-align: center;
@@ -489,22 +489,20 @@ header .header-cases{
 
 .contact-text1{
     grid-area: textA;
-    line-height: 100px;
+    line-height: 150px;
     justify-content: center;
 }
 
 .contact-text2{
     grid-area: textB;
-    line-height: 100px;
+    line-height: 150px;
     justify-content: center;
 }
 
 .contact-text3{
-    display: flex;
     justify-content: center;
-    line-height: 100px;
+    line-height: 150px;
     grid-area: textC;
-    text-align: left;
 }
 
 @media only screen and (min-width: 1000px){
@@ -545,7 +543,7 @@ header .header-cases{
         color: black;
         text-align: center;
         text-transform: uppercase;
-        line-height: 150px;
+        line-height: 260px;
     }
 
     .contact h2{
@@ -555,7 +553,7 @@ header .header-cases{
 
     .contact h3{
         font-size: 26px;
-        line-height: 150px;    
+        line-height: 260px;    
     }
 }
 
