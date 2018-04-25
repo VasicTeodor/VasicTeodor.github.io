@@ -581,7 +581,7 @@ header .header-cases{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 310px;
     margin-left: auto !important;
     margin-right: auto !important;
     transition: transform .2s;
