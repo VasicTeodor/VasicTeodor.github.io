@@ -700,6 +700,150 @@ header .header-cases{
     }
 
 }
+
+/*==================== TECHNOLOGY ====================*/
+
+.tech-using{
+    overflow: hidden;
+}
+
+.tech-using h2{
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.tech-percent{
+    width: calc(100% - 60px);
+    height: 40px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-image{
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tech-image img{
+    width: 100%;
+}
+
+.tech-name{
+    width: calc(100% - 40px);
+    background-color: #f2f2f2;
+    margin: 20px auto;
+}
+
+.tech-name h3{
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.progress-bar{
+    width: calc(100% - 14px);
+    height: calc(90% - 10px);
+    margin: auto auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.progress-bar-fill1{
+    width: 70%;
+    height: 100%;
+    background-color: #2765d1;
+    border-radius: 10px;
+}
+
+.progress-bar-fill2{
+    width: 60%;
+    height: 100%;
+    background-color: #2765d1;
+    border-radius: 10px;
+}
+
+.progress-bar-fill3{
+    width: 15%;
+    height: 100%;
+    background-color: #2765d1;
+    border-radius: 10px;
+}
+
+.progress-bar-fill4{
+    width: 45%;
+    height: 100%;
+    background-color: #2765d1;
+    border-radius: 10px;
+}
+
+.tech-description{
+    width: calc(100% - 40px);
+    background-color: #f2f2f2;
+    margin: 20px auto;
+}
+
+.tech-description p{
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    font-weight: 800;
+    color: #111;
+    text-align: center;
+    line-height: 26px;
+}
+
+@media only screen and (min-width: 1000px){
+    .tech-about div{
+        float: left;
+    }
+
+    .tech-image{
+        width: calc(25% - 40px) !important;
+        margin: 20px 20px !important;
+    }
+
+    .tech-image img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .tech-name{
+        width: calc(75% - 40px) !important;
+        margin: 25px 20px !important;
+    }
+
+    .tech-name h3{
+        font-size: 26px;
+    }
+
+    .tech-percent{
+        width: calc(75% - 40px);
+        margin: 35px 20px;
+        height: 60px;
+    }
+
+    .tech-description{
+        width: calc(100% - 40px) !important;
+        margin: 20px 20px;
+    }
+
+    .tech-description p{
+        font-size: 25px;
+    }
+}
 /*==================== FOOTER ========================*/
 
 footer{
